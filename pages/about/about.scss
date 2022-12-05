@@ -1,0 +1,164 @@
+// about hero section
+.about-1 {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(
+            to right,
+            rgba(1,13,0, 0.5),
+            rgba(1,13,0, 0.5)
+          ), url("../images/hero-2-small.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+
+        // about intro container  
+    .about-intro {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        align-items: center;
+        justify-content: space-evenly;
+        width: 300px;
+        height: 110px;
+        margin: 37.8vh auto;
+
+        // about intro p tags 
+        .ab-int {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 42px;
+                color: $site-1;
+                width: 375px;
+                font-weight: 400;
+                height: 47px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+
+        // the p tag styling for the second one
+        .ab-int:nth-child(even) {
+            width: 375px;
+            height: 55px;
+            border-top: $site-1 solid 3px;
+        }
+    }
+}
+
+// about section talking about why i like coding 
+.about-2 {
+    height: 65vh;
+    width: 100vw; 
+    background-color: $site-3;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .page-int-a {
+        width: 80px;
+        height: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px auto;
+        
+        .double-line-a {
+          width: 54px;
+          height: 7px;
+          border-bottom: $site-1 solid 2px;
+          border-top: $site-1 solid 2px;
+        }
+        .page-int-title {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: $site-1;
+        }
+      
+      }
+    
+    // the container for the header and the paragraph
+    .abt2-cont {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        align-items: center;
+        justify-content: space-evenly;
+        // width: 60%;
+        height: 330px;
+        margin-top: -34.3%; 
+
+
+        // the header styling for this section 
+        .abh2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 42px;
+                color: $site-1;
+                // width: 375px;
+                font-weight: 400;
+                height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 10%; 
+        }
+
+        // the paragraph styling for this section
+        .abp2 {
+            width: 500px;
+            height: 30px;
+            font-size: 19px;
+            // margin-top: -10%;
+            margin-left: 2%;
+            color: $site-1;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    }
+} 
+
+// the fourth about section 
+.about-4 {
+    height: 50vh;
+    width: 100vw; 
+    background-color: $site-4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    // the container for this section 
+    .abt4-cont {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+        height: 55%;
+        margin-top: -5%;
+
+        // the header for the second info section 
+        .abh4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 42px;
+                color: $site-1;
+                // width: 375px;
+                font-weight: 400;
+                height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        // the paragraph for the second section
+        .abp4 {
+            width: 500px;
+            height: 30px;
+            font-size: 19px;
+            margin-top: -10%;
+            margin-left: 10%;
+            color: $site-1;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    }
+} 

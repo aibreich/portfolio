@@ -1,0 +1,200 @@
+// the work hero section 
+.work-1 {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(
+            to right,
+            rgba(1,13,0, 0.5),
+            rgba(1,13,0, 0.5)
+          ), url("../images/hero-small.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .work-cont {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 40vh auto;
+            height: 65px;
+            width: 245px;
+            border-bottom: $site-1 solid 3px;
+            
+  
+            .work-int {
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  font-size: 42px;
+                  color: $site-1;
+                  width: 150px;
+                  font-weight: 400;
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly; 
+              
+            }
+          }
+}
+// the second work section displaying my work 
+.work-2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: $site-4;
+    display: grid;
+        grid-template-columns: repeat(1, auto);
+    // align-items: center;
+    justify-content: space-evenly; 
+
+    .page-int-w {
+        width: 80px;
+        height: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 18px auto; 
+        
+        
+        .double-line-w {
+          width: 49px;
+          height: 7px;
+          border-bottom: $site-1 solid 2px;
+          border-top: $site-1 solid 2px;
+        }
+        .page-int-title-w {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: $site-1;
+        }
+      
+      } 
+      .work2-cont {
+        height: 90%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        // align-items: center;
+    justify-content: space-between; 
+
+        .work-stuff1 {
+         width: 740px;
+         height: 390px;
+         display: grid;
+         grid-template-columns: repeat(2, auto);
+         align-items: center;
+         justify-content: space-evenly;
+
+         .rw-h{
+          width: 355px;
+          height: 180px;
+          background-image: url("../images/roveway-home.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+         .rw-p{
+          width: 355px;
+          height: 180px;
+          background-image: url("../images/roveway-products.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+         .rw-s{
+          width: 355px;
+          height: 180px;
+          background-image: url("../images/roveway-social.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+         .rw-b{
+          width: 355px;
+          height: 180px;
+          background-image: url("../images/roveway-blog.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+         
+        }
+        .work-stuff2 {
+         width: 500px;
+         height: 400px;
+      
+         display: grid;
+        grid-template-columns: repeat(1, auto);
+         align-items: center;
+         justify-content: space-evenly;
+         .work-stuff2p{
+          height: 150px;
+        width: 350px;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $site-1;
+        text-align: center;
+         }
+         
+        }
+   }
+}
+// the third work section talking about checking out my github 
+.work-3 {
+  height: 50vh;
+  width: 100vw; 
+  background-color: $site-3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+    
+    .work3-cont {
+      display: grid;
+      grid-template-columns: repeat(1,auto);
+      align-items: center;
+      justify-content: space-evenly;
+      width: 60%;
+      height: 55%;
+      margin-top: -5%;
+
+      // the header for the second info section 
+      .work-he {
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              font-size: 42px;
+              color: $site-1;
+              width: 175px;
+              font-weight: 400;
+              height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          margin: 0 auto;
+      }
+      // the paragraph for the second section
+      .work-sub {
+          width: 400px;
+          height: 100px;
+          font-size: 19px;
+          margin-top: 15%;
+          // margin-left: 10%;
+          color: $site-1;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          text-align: center;
+      }
+      .learn-more {
+        width: 130px;
+        height: 25px;
+        background-color: $site-2;
+        color: $site-1;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        margin: 30px auto;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    
+    }
+  }
+}

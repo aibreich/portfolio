@@ -1,0 +1,77 @@
+//the footer code 
+footer {
+    height: 38vh;
+    width: 100vw;
+    background-image: linear-gradient(
+            to right,
+            rgba(75, 105, 115, 0.8),
+            rgba(75, 105, 115, 0.8)
+          ), url("../images/hero-2-small.jpeg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+       // R:101, G:157, B:191
+}
+ 
+// making a container to hold everything within the center and stacked onto each other
+.foot-cont {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 500px;
+  margin: 0 auto;
+}
+
+// the same logo/ my name brought down from the nav
+.logo-f {
+  width: 180px;
+  height: 30px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-bottom: $site-5 solid 3px;
+  margin: 0 auto;
+  color: $site-5;
+}
+
+// the nav container for the footer
+.nav-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 350px;
+  height: 30px;
+  
+
+  .foot-item {
+  width: 75px;
+  height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: $site-5;
+}
+}
+
+// social media container
+.socials-cont{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 30px;
+  margin: 0 auto;
+
+  .foot-logo {
+  width: 45px;
+  height: 45px;
+  color: $site-5;
+}
+}
+
