@@ -1,3 +1,4 @@
+// contact one section
 .contact-1 {
     width: 100vw;
     height: 90vh;
@@ -10,7 +11,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         
-        
+        // container for the contact 1 section
         .con-cont {
           display: flex;
           align-items: center;
@@ -23,10 +24,10 @@
 
           .con-int {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 42px;
-                color: $site-1;
-                width: 150px;
-                font-weight: 400;
+            font-size: 42px;
+            color: $site-1;
+            width: 150px;
+            font-weight: 400;
             display: flex;
             align-items: center;
             justify-content: space-evenly; 
@@ -35,6 +36,7 @@
         }
 }
 
+// contact 2 section that has the form
 .contact-2 {
     height: 55vh;
     width: 100vw;
@@ -66,6 +68,7 @@
       }
     
     }
+    // the subtitle for the form
     .contact-subtitle {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
@@ -86,7 +89,7 @@
       height: 130px;
       // margin-top: -1.4%; 
 
-
+      // the contact form
       .con-form {
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -96,7 +99,7 @@
         height: 180px;
         margin-top: 10%;
       }
-
+      // the top of the form
       .top-form {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -104,9 +107,9 @@
         // display: flex;
         // align-items: center;
         justify-content: space-evenly;
-        
         margin: 0 auto;
       }
+      // the labels for each portion of the form
       .name-label1 {
         border: $site-5 1px solid;
         width: 200px;
@@ -135,6 +138,7 @@
         background-color: $site-1;
         color: $site-5;
       }
+      // submit button label 
       .sub-label {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 14px;

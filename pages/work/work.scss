@@ -68,14 +68,15 @@
         }
       
       } 
+      // the second work section container
       .work2-cont {
         height: 90%;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, auto);
         // align-items: center;
-    justify-content: space-between; 
-
+        justify-content: space-between; 
+        // grid container for the work photos
         .work-stuff1 {
          width: 740px;
          height: 390px;
@@ -118,24 +119,25 @@
          }
          
         }
+        // the paragraph side for the work photos
         .work-stuff2 {
          width: 500px;
          height: 400px;
-      
          display: grid;
-        grid-template-columns: repeat(1, auto);
+         grid-template-columns: repeat(1, auto);
          align-items: center;
          justify-content: space-evenly;
+
+        //  the work stuff actual paragraph
          .work-stuff2p{
           height: 150px;
-        width: 350px;
-        font-size: 22px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: $site-1;
-        text-align: center;
-         }
-         
+          width: 350px;
+          font-size: 22px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          color: $site-1;
+          text-align: center;
         }
+      }
    }
 }
 // the third work section talking about checking out my github 
@@ -147,7 +149,7 @@
   align-items: center;
   justify-content: space-evenly;
 
-    
+    // the work 3 container
     .work3-cont {
       display: grid;
       grid-template-columns: repeat(1,auto);
@@ -160,11 +162,11 @@
       // the header for the second info section 
       .work-he {
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-              font-size: 42px;
-              color: $site-1;
-              width: 175px;
-              font-weight: 400;
-              height: 20px;
+          font-size: 42px;
+          color: $site-1;
+          width: 175px;
+          font-weight: 400;
+          height: 20px;
           display: flex;
           align-items: center;
           justify-content: space-evenly;
@@ -181,6 +183,8 @@
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
           text-align: center;
       }
+
+      // learn more that leads to my github account
       .learn-more {
         width: 130px;
         height: 25px;
