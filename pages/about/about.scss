@@ -52,7 +52,7 @@
     background-color: $site-3;
     display: grid;
     grid-template-columns: repeat(1,auto);
-    align-items: center;
+    // align-items: center; 
     justify-content: space-evenly;
     
     .page-int-a {
@@ -62,7 +62,7 @@
         grid-template-columns: repeat(1, auto);
         align-items: center;
         justify-content: space-evenly;
-        margin: 20px auto;
+        margin: 18px auto;
         
         .double-line-a {
           width: 54px;
@@ -77,7 +77,7 @@
           color: $site-1;
         }
       
-      }
+    }
     
     // the container for the header and the paragraph
     .abt2-cont {
@@ -87,7 +87,7 @@
         justify-content: space-evenly;
         // width: 60%;
         height: 330px;
-        margin-top: -34.3%; 
+        margin-top: -3.75%; 
 
 
         // the header styling for this section 

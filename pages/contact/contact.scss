@@ -40,7 +40,7 @@
     width: 100vw;
     background-color: $site-2; 
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: space-evenly; 
     
     .page-int-c {
@@ -50,7 +50,7 @@
       grid-template-columns: repeat(1, auto);
       align-items: center;
       justify-content: space-evenly;
-      margin: 49px auto;
+      margin: 18px auto;
       
       .double-line-c {
         width: 77px;
@@ -66,16 +66,25 @@
       }
     
     }
+    .contact-subtitle {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        // text-transform: uppercase;
+        color: $site-1;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
   
   // the container for the form
   .con2-cont {
       display: grid;
       grid-template-columns: repeat(1,auto);
       align-items: center;
-      // justify-content: space-evenly;
+      justify-content: space-between;
       // width: 60%;
       height: 130px;
-      margin-top: -22.4%; 
+      // margin-top: -1.4%; 
 
 
       .con-form {
